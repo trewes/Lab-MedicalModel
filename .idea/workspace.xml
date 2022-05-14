@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3e1e606-64da-4445-b66c-c24c9fb83b2f" name="Changes" comment="First commit, main python and main jupyter file." />
+    <list default="true" id="b3e1e606-64da-4445-b66c-c24c9fb83b2f" name="Changes" comment="First commit, main python and main jupyter file.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -30,13 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lab-MedicalModel" />
@@ -74,7 +79,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652351336674</updated>
-      <workItem from="1652351339941" duration="1938000" />
+      <workItem from="1652351339941" duration="2388000" />
+      <workItem from="1652364775735" duration="5597000" />
+      <workItem from="1652377075265" duration="855000" />
+      <workItem from="1652477599176" duration="486000" />
+      <workItem from="1652478206679" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, main python and main jupyter file.">
       <created>1652352439241</created>
@@ -97,7 +106,28 @@
       <option name="project" value="LOCAL" />
       <updated>1652352935178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First commit, main python and main jupyter file.">
+      <created>1652353324796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652353324796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First commit, main python and main jupyter file.">
+      <created>1652353421295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652353421295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First commit, main python and main jupyter file.">
+      <created>1652353648884</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652353648884</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
