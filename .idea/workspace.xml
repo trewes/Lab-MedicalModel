@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3e1e606-64da-4445-b66c-c24c9fb83b2f" name="Changes" comment="First commit, main python and main jupyter file.">
+    <list default="true" id="b3e1e606-64da-4445-b66c-c24c9fb83b2f" name="Changes" comment="Experiments and errors with concrete-numpy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
     </list>
@@ -84,6 +84,11 @@
       <workItem from="1652377075265" duration="855000" />
       <workItem from="1652477599176" duration="486000" />
       <workItem from="1652478206679" duration="657000" />
+      <workItem from="1652518315639" duration="209000" />
+      <workItem from="1652642742026" duration="5076000" />
+      <workItem from="1652696783357" duration="2527000" />
+      <workItem from="1652716176742" duration="4809000" />
+      <workItem from="1652956080347" duration="4039000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, main python and main jupyter file.">
       <created>1652352439241</created>
@@ -127,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652353648884</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Experiments and errors with concrete-numpy">
+      <created>1652518476017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652518476017</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +158,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit, main python and main jupyter file." />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit, main python and main jupyter file." />
+    <MESSAGE value="Experiments and errors with concrete-numpy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Experiments and errors with concrete-numpy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lab_MedicalModel$main.coverage" NAME="main Coverage Results" MODIFIED="1652352302697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
