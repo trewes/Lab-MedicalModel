@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3e1e606-64da-4445-b66c-c24c9fb83b2f" name="Changes" comment="Tried to learn the logistic regression with concrete-ml. In the clear it works and is accurate, but with quantization and fhe, the model fails completely, likely due to not enough bits being usable at the moment.">
+    <list default="true" id="b3e1e606-64da-4445-b66c-c24c9fb83b2f" name="Changes" comment="Finished the logistic regression model using concrete-ml and did some accuracy tests that were satisfying for this use case.">
+      <change afterPath="$PROJECT_DIR$/AES+FHE.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogisticRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegression.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;
   }
 }</component>
@@ -89,7 +91,14 @@
       <workItem from="1652696783357" duration="2527000" />
       <workItem from="1652716176742" duration="4809000" />
       <workItem from="1652956080347" duration="4342000" />
-      <workItem from="1653059557928" duration="7619000" />
+      <workItem from="1653059557928" duration="7723000" />
+      <workItem from="1653223006011" duration="166000" />
+      <workItem from="1653588655681" duration="787000" />
+      <workItem from="1653938456661" duration="862000" />
+      <workItem from="1653998206803" duration="3355000" />
+      <workItem from="1654188262567" duration="2361000" />
+      <workItem from="1654194183741" duration="2590000" />
+      <workItem from="1654284520745" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, main python and main jupyter file.">
       <created>1652352439241</created>
@@ -161,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652960770751</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finished the logistic regression model using concrete-ml and did some accuracy tests that were satisfying for this use case.">
+      <created>1653067270847</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653067270847</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Finished the logistic regression model using concrete-ml and did some accuracy tests that were satisfying for this use case.">
+      <created>1653067286955</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653067286955</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +205,8 @@
     <MESSAGE value="First commit, main python and main jupyter file." />
     <MESSAGE value="Experiments and errors with concrete-numpy" />
     <MESSAGE value="Tried to learn the logistic regression with concrete-ml. In the clear it works and is accurate, but with quantization and fhe, the model fails completely, likely due to not enough bits being usable at the moment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tried to learn the logistic regression with concrete-ml. In the clear it works and is accurate, but with quantization and fhe, the model fails completely, likely due to not enough bits being usable at the moment." />
+    <MESSAGE value="Finished the logistic regression model using concrete-ml and did some accuracy tests that were satisfying for this use case." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the logistic regression model using concrete-ml and did some accuracy tests that were satisfying for this use case." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lab_MedicalModel$main.coverage" NAME="main Coverage Results" MODIFIED="1652352302697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
