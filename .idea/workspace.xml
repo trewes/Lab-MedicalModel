@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3e1e606-64da-4445-b66c-c24c9fb83b2f" name="Changes" comment="Finished the logistic regression model using concrete-ml and did some accuracy tests that were satisfying for this use case.">
-      <change afterPath="$PROJECT_DIR$/AES+FHE.ipynb" afterDir="false" />
+    <list default="true" id="b3e1e606-64da-4445-b66c-c24c9fb83b2f" name="Changes" comment="Added CNN example from concrete and tried adapting it to previous medical model.">
+      <change afterPath="$PROJECT_DIR$/FCNN.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LogisticRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CNN.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,10 @@
       <workItem from="1653998206803" duration="3355000" />
       <workItem from="1654188262567" duration="2361000" />
       <workItem from="1654194183741" duration="2590000" />
-      <workItem from="1654284520745" duration="111000" />
+      <workItem from="1654284520745" duration="960000" />
+      <workItem from="1654285584178" duration="5486000" />
+      <workItem from="1654373508586" duration="1588000" />
+      <workItem from="1654964162188" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, main python and main jupyter file.">
       <created>1652352439241</created>
@@ -184,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653067286955</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="More tests and playing around.">
+      <created>1654284708987</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654284708987</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added CNN example from concrete and tried adapting it to previous medical model.">
+      <created>1654284737631</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654284737631</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +223,9 @@
     <MESSAGE value="Experiments and errors with concrete-numpy" />
     <MESSAGE value="Tried to learn the logistic regression with concrete-ml. In the clear it works and is accurate, but with quantization and fhe, the model fails completely, likely due to not enough bits being usable at the moment." />
     <MESSAGE value="Finished the logistic regression model using concrete-ml and did some accuracy tests that were satisfying for this use case." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the logistic regression model using concrete-ml and did some accuracy tests that were satisfying for this use case." />
+    <MESSAGE value="More tests and playing around." />
+    <MESSAGE value="Added CNN example from concrete and tried adapting it to previous medical model." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CNN example from concrete and tried adapting it to previous medical model." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lab_MedicalModel$main.coverage" NAME="main Coverage Results" MODIFIED="1652352302697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
